@@ -1,0 +1,39 @@
+* { /* Se refiere a todos los elementos del html*/
+    box-sizing: border-box; /*incluir padding y border en el cálculo del tamaño total del elemento.*/
+    padding: 0;
+    margin: 0;
+}
+
+html { /*se refiere al elemento raíz <html>*/
+    font-size: 62.5%;  /*1rem equivalente a 10 píxeles (px)*/
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 1200PX;
+    margin: 0 auto;
+
+    .main__hero{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-auto-rows: 400px; /*tamaño a las filas fijo*/
+
+        .main__hero__info{
+            align-self: center; /* se alinea a si mismo en el eje y*/
+        
+        }
+
+        .main__hero__img{
+            width: 100%;
+            height: auto;
+
+            img{
+                width: 100%; 
+                height: 100%; 
+                object-fit: contain; /* La imagen se escala para que quepa dentro de las dimensiones del contenedo */
+
+            }
+        }
+    }
+}
+
