@@ -1,13 +1,13 @@
-main .main__hero {
+.main .main__hero {
   grid-template-columns: minmax(300px, 500px);
   justify-content: center;
 }
-main .main__hero .main__hero__img {
+.main .main__hero .main__hero__img {
   display: none;
 }
-main .main__dishes .main__dishes-grid {
+.main .main__dishes .main__dishesGrid {
   grid-template-columns: repeat(auto-fit, minmax(75px, 120px));
 }
-main .main__menu .main__menu-grid {
+.main .main__menu .main__menuGrid {
   grid-template-columns: repeat(auto-fit, 130px);
 }/*# sourceMappingURL=mobile.css.map */

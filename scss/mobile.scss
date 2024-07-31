@@ -1,4 +1,4 @@
-main{
+.main{
 
     .main__hero{
 
@@ -12,13 +12,13 @@ main{
 
     .main__dishes{
 
-        .main__dishes-grid{
+        .main__dishesGrid{
             grid-template-columns: repeat(auto-fit, minmax(75px, 120px));
         }
     }
 
     .main__menu{
-        .main__menu-grid{
+        .main__menuGrid{
             grid-template-columns: repeat(auto-fit, 130px);
         }
     }
